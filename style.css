@@ -1,0 +1,124 @@
+* {margin: 0;
+padding: 0;
+border: 0;}
+
+html {
+    background-color: #0f172a;
+    color: #ffff; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+.container-grid {
+    max-width: 110rem;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.8rem;
+}
+
+.nav-links a {  
+    text-decoration: none;
+    color: #ffff;
+    margin: 2rem;
+}
+
+.foto {
+    height: 28rem;
+    width: 40rem;
+}
+
+.main-title {
+    font-size: 2.7rem;
+    margin: 4rem;
+
+}
+
+.main-description {
+    font-size: 1.6rem;
+    margin: 4rem;
+}
+
+.button {
+    color: #ffff;
+    text-decoration: none;
+    background-color: #0039cc;
+    border-radius: 0.2rem;
+    font-size: 1.6rem;
+    padding: 1.7rem 3.5rem;
+    margin: 4rem;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tecnologias {
+    margin: 4rem;
+    display: flex;
+}
+.tecnologias img {
+    padding: 1.5rem;
+}
+
+.about {
+    background-color: #162340;
+    height: 20rem;
+    padding: 3rem;
+}
+
+.sobre-mim p {
+    font-size: 1.6rem;
+    margin-top: 3rem;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-projects {
+    height: 20rem;
+    width: 50rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+.projects p {
+    font-size: 1.6rem;
+    margin-top: 3rem;
+}
+
+.img-footer {
+    height: 5rem;
+    width: 5rem;
+    margin: 3rem;
+}
+
+footer {
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.footer-position {
+    display: flex;
+    flex-direction: column;
+}
