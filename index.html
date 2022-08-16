@@ -11,15 +11,15 @@
     <title>Eduardo Silva</title>
 </head>
 <body>
-    <header class="container-grid inspecionar">
+    <header id="inicio" class="container-grid inspecionar">
         <div class="nav-links">
-            <a href="#">Início</a>
-            <a href="#">Sobre</a>
-            <a href="#">Projetos</a>
-            <a href="#">Contato</a>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contatos">Contato</a>
         </div>
     </header>
-    <section class="main container-grid">
+    <section  class="main container-grid">
         <img class="foto" src="imagens/foto.png" alt="Foto Eduardo">
         <div class="main-conteudo">
             <h1 class="main-title">Olá! Eu sou Eduardo Silva. Desenvolvedor Web Full Stack.</h1>
@@ -27,60 +27,63 @@
             <a class="button" href="#">Dowload meu CV</a>
             <img src="" alt="">
             <div class="tecnologias">
-                <img src="imagens/html.png" alt="HTML">
-                <img src="imagens/css.png" alt="CSS">
-                <img src="imagens/bootstrap.png" alt="bootstrap">
-                <img src="imagens/js.png" alt="JavaScript">
-                <img src="imagens/react.png" alt="React">
-                <img src="imagens/node.png" alt="Node">
-                <img src="imagens/git.png" alt="Git">
+                <abbr title="HTML"> <img src="imagens/html.png" alt="HTML"></abbr>
+                <abbr title="CSS"><img src="imagens/css.png" alt="CSS"></abbr>
+                <!-- <abbr title="HTML"><img src="imagens/bootstrap.png" alt="bootstrap"> -->
+                <abbr title="JavaScript"><img src="imagens/js.png" alt="JavaScript"></abbr>
+                <!-- <abbr title="HTML"><img src="imagens/react.png" alt="React"></abbr> -->
+                <!-- <abbr title="HTML"><img src="imagens/node.png" alt="Node"></abbr> -->
+                <abbr title="Git"><img src="imagens/git.png" alt="Git"></abbr>
             </div>
         </div>
     </section>
-    <div class="about">
-        <section class="sobre-mim container-grid">
-        <h2>Sobre mim</h2>
-        <p>Estudando Desenvolvimento Web Full Stack.
-
-            Quando descobri o mundo do desenvolvimento e realizei meu primeiro "Hello World", fiquei fascinado de poder criar e desenvolver. 
-            Logo depois quis me aprofundar e aprender cada vez mais, desenvolver minhas ideias, criar soluções e tornar a vida mais pratica por meio da programação.
-            
-            Desenvolvendo experiências e competências por meio de estudos e projetos. Com o objetivo de ser um profissional na área de tecnologia e me tornar cada vez melhor.  </p>
+        <section class="sobre-mim ">
+            <div id="sobre" class="container-grid about">
+                <h2>Sobre mim</h2>
+                <p>Olá! Sou Eduardo e estou estudando para me tornar um desenvolvedor web full stack. <br>
+                Atualmente estou estudando as liguagens de Front-End, como HTML, CSS, JavaScript, React e Angular. Também estudo o uso da ferramenta Figma que facilita a criação de layouts e protótipos.<br>
+                Estou desenvolvendo experiências e competências por meio de estudos e projetos. Com o objetivo de ser um profissional na área de tecnologia e me tornar cada vez melhor.</p>
+            </div>           
         </section>
-    </div>
+    
 
-    <section class=" container-grid">
-        <h2>Projetos</h2>
-        <div class="projects">
-           <img class="img-projects" src="imagens/Captura de Tela (116).png" alt="imagem projeto e-players">
-            <div>
-                <h3>E-players</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime hic temporibus error earum esse exercitationem itaque quisquam accusantium obcaecati alias mollitia dicta similique neque adipisci qui, corrupti, distinctio amet. Accusamus.</p>
-            </div> 
+    <section id="projetos" >
+        <div class="container-grid">
+            <h2>Projetos</h2>
+            <div class="projects posi-projects">
+            <img class="img-projects" src="imagens/Captura de Tela (116).png" alt="imagem projeto e-players">
+                <div>
+                    <h3>E-players</h3>
+                    <p>Projeto de um site para uma plataforma com público gamer. Foi desenvolvido usando as liguagens principais do Front-End, utilizando JavaScript para a criação do menu responsivo e Jquery para a mudança de imagens do banner.</p> <br>
+                    <a class="link-project" href="https://fraedu.github.io/Projeto-E-Players/">Clique aqui para acessar o site</a> <br>
+                    <a class="link-project" href="https://github.com/fraedu/Projeto-E-Players">Clique aqui para acessar o repositório no GItHub</a> 
+                </div> 
+            </div>
+            <!-- <div class="projects  posi-projects">
+                <img class="img-projects" src="imagens/Captura de Tela (116).png" alt="imagem projeto e-players">
+                <div>
+                    <h3>E-players</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime hic temporibus error earum esse exercitationem itaque quisquam accusantium obcaecati alias mollitia dicta similique neque adipisci qui, corrupti, distinctio amet. Accusamus.</p>
+                </div> 
+            </div>
+            <div class="projects posi-projects">
+                <img class="img-projects" src="imagens/Captura de Tela (116).png" alt="imagem projeto e-players">
+                <div>
+                    <h3>E-players</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime hic temporibus error earum esse exercitationem itaque quisquam accusantium obcaecati alias mollitia dicta similique neque adipisci qui, corrupti, distinctio amet. Accusamus.</p>
+                </div> 
+            </div>
+            <div class="projects posi-projects">
+                <img class="img-projects" src="imagens/Captura de Tela (116).png" alt="imagem projeto e-players">
+                <div>
+                    <h3>E-players</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime hic temporibus error earum esse exercitationem itaque quisquam accusantium obcaecati alias mollitia dicta similique neque adipisci qui, corrupti, distinctio amet. Accusamus.</p>
+                </div> 
+            </div> -->
         </div>
-        <div class="projects">
-            <img class="img-projects" src="imagens/Captura de Tela (116).png" alt="imagem projeto e-players">
-             <div>
-                 <h3>E-players</h3>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime hic temporibus error earum esse exercitationem itaque quisquam accusantium obcaecati alias mollitia dicta similique neque adipisci qui, corrupti, distinctio amet. Accusamus.</p>
-             </div> 
-         </div>
-         <div class="projects">
-            <img class="img-projects" src="imagens/Captura de Tela (116).png" alt="imagem projeto e-players">
-             <div>
-                 <h3>E-players</h3>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime hic temporibus error earum esse exercitationem itaque quisquam accusantium obcaecati alias mollitia dicta similique neque adipisci qui, corrupti, distinctio amet. Accusamus.</p>
-             </div> 
-         </div>
-         <div class="projects">
-            <img class="img-projects" src="imagens/Captura de Tela (116).png" alt="imagem projeto e-players">
-             <div>
-                 <h3>E-players</h3>
-                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime hic temporibus error earum esse exercitationem itaque quisquam accusantium obcaecati alias mollitia dicta similique neque adipisci qui, corrupti, distinctio amet. Accusamus.</p>
-             </div> 
-         </div>
+        
     </section>
-    <footer class="footer-position container-grid">
+    <footer id="contatos" class="footer-position container-grid">
         <div>
             <a target="_blank" href="https://github.com/fraedu"><img class="img-footer" src="imagens/github.jpg" alt="github logo"></a>
             <a target="_blank" href="https://www.linkedin.com/in/eduardodev-silva"><img class="img-footer"src="imagens/Logo-LinkedIn-branca-300x300.png" alt="linkedin logo"></a>

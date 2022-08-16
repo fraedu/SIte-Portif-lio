@@ -13,27 +13,48 @@ html {
     max-width: 110rem;
     margin: 0 auto;
     margin-top: 3rem;
+    padding: 2rem;
 }
 
 h2 {
-    font-size: 2.8rem;
+    font-size: 3rem;
+}
+
+header {
+    height: 3rem;
 }
 
 .nav-links {
     display: flex;
     justify-content: flex-end;
     font-size: 1.8rem;
+    
 }
 
 .nav-links a {  
     text-decoration: none;
     color: #ffff;
     margin: 2rem;
+    background-color: #0039cc;
+    padding: 1rem 1.5rem;
+    border-radius: 50px;
+}
+
+.nav-links a:hover {
+    background-color: #162340;
+    
+    transition: 0.3s;
+}
+
+.main-conteudo a:hover {
+    background-color: #162340;
+    
+    transition-duration: 0.3s;
 }
 
 .foto {
-    height: 28rem;
-    width: 40rem;
+    height: 30rem;
+    width: 42rem;
 }
 
 .main-title {
@@ -52,8 +73,8 @@ h2 {
     text-decoration: none;
     background-color: #0039cc;
     border-radius: 0.2rem;
-    font-size: 1.6rem;
-    padding: 1.7rem 3.5rem;
+    font-size: 1.5rem;
+    padding: 1.6rem 3.3rem;
     margin: 4rem;
 }
 
@@ -71,10 +92,11 @@ h2 {
     padding: 1.5rem;
 }
 
-.about {
+.sobre-mim {
     background-color: #162340;
-    height: 20rem;
+    height: 30rem;
     padding: 3rem;
+    width: 100%;
 }
 
 .sobre-mim p {
@@ -99,6 +121,13 @@ h3 {
     font-size: 2.5rem;
 }
 
+.link-project {
+    font-size: 1.3rem;
+    margin-top: 3rem;
+    color: #ffff;
+    text-decoration: none;
+}
+
 .projects p {
     font-size: 1.6rem;
     margin-top: 3rem;
@@ -111,7 +140,7 @@ h3 {
 }
 
 footer {
-    margin-top: 10rem;
+    height: 20rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -122,3 +151,11 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
+
+/*.posi-projects {
+    flex-wrap: wrap;
+}
+
+
+
